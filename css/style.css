@@ -1,0 +1,104 @@
+/* some tweaks that affect whole page */
+body{
+ background-color: #040429;
+ color: #c6c6ec;
+ font-family: 'Dosis', sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+}
+/* some tweaks that affect whole page */
+
+/* Top name Font */
+
+.name{
+  font-size: 60px;
+  color: aliceblue;
+}
+
+/* Top name Font */
+
+
+/* Changes For The Web To Study Part */
+.web{
+  text-align: center;
+  font-size: 50px;
+  color :#00462b;
+
+}
+
+.head{
+  font-size: 30px;
+}
+
+.box{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+/* Changes For The Web To Study Part */
+
+/* ----------Books For Study-------- */
+
+.books{
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-bottom :10%;
+}
+
+ .head2{
+  color: rgb(107, 19, 45);
+  font-size: 80px;
+  padding-right: 10%;
+}
+
+/* ----------Books For Study-------- */
+
+/* The Knowledge Part */
+.knowledge{
+  margin-left: 20%;
+  margin: 10%;
+}
+
+.head3{
+  font-size: 90px;
+  font-style: bold;
+  color: #002b0b;
+}
+.things{
+  font-size: 40px;
+  margin-left: 30%;
+}
+/* The Knowledge Part */
+
+
+
+/* Bottom Part */
+.bottom-box ul {
+  list-style: none;
+
+}
+.bottom-box ul li {
+
+  padding: 3.1em;
+  background-color: #030633;
+  width:10em;
+  display: inline-block;
+}
+
+.headbox{
+  font-size: 1.2em;
+}
+/* Bottom Part */

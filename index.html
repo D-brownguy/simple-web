@@ -2,18 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>ჟ THIS IS JAY'S FIRST WEB</title>
+    <title>THIS IS JAY'S FIRST WEB</title>
     <meta name="description" content="this is the site for the devloping a web">
     <meta name="keywords" content="HTML">
     <meta name="author" content="jay rathod">
     <meta http-equiv="refresh" content="5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- added font and css -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <table cellspacing="20">
       <tr>
-        <td>  <img src="DSC_0935.JPG" alt="my photo" height="200"></td>
-        <td>  <h1> THE JAY RATHOD</h1>
+        <td>  <img src="DSC_0935.JPG" alt="my photo" height="400"></td>
+        <td>  <h1 class="name"> THE JAY RATHOD</h1>
           <h4><em><strong>computer</strong> engineer</em></h4>
 
           <p>Computer engineer duties include: Conducting research on software and computer hardware.
@@ -23,29 +27,30 @@
     </table>
 
 
-    <hr size="3" noshade>
-    <h3>Web For Read for study</h3>
+
+    <h3 class="web">Website For Read And Study</h3>
     <ul>
-      <li><a href="https://www.w3schools.com/">www.w3school.com</a>
+
+      <li class="box"><a class="head"  href="https://www.w3schools.com/">www.w3school.com</a>
           <ul>
             <li>html</li>
             <li>css</li>
             <li>bootstrap</li>
           </ul>
       </li>
-      <li><a href="https://www.javatpoint.com/">www.javatpoint.com</a>
+      <li class="box"><a class="head"  href="https://www.javatpoint.com/">www.javatpoint.com</a>
         <ul>
           <li>java</li>
           <li>java collection</li>
         </ul>
       </li>
-      <li><a href="https://www.tutorialspoint.com/index.htm">www.tutorialpoint.com</a>
+      <li class="box" ><a class="head"  href="https://www.tutorialspoint.com/index.htm">www.tutorialpoint.com</a>
         <ul>
           <li>python</li>
           <li>ml</li>
         </ul>
       </li>
-      <li><a href="https://stackoverflow.com/">www.stackoverflow.com</a>
+      <li class="box" ><a href="https://stackoverflow.com/">www.stackoverflow.com</a>
         <ul>
           <li>for your problem solving</li>
           <li>css</li>
@@ -53,23 +58,77 @@
         </ul>
       </li>
     </ul>
-    <h3>books for read</h3>
-    <ol>
-      <li>java the complet guide</li>
-      <li>java for begi..</li>
-      <li>python for datascince</li>
+
+    <div class="books">
+    <h3 class="head2">books for read</h3>
+    <o >
+      <li>Java the complete guide</li>
+      <li>Java for begi..</li>
+      <li>Python for datascince</li>
     </ol>
-    <hr size="3" noshade>
+  </div>
+
+    <!--  Your Previous Code  -->
+
+    <!-- <hr size="5" color="#06061a">
     <h3>download the html sheet</h3>
     <a download href="WSU-HTML-Cheat-Sheet.pdf">download html sheet </a>
-    <hr size="3" noshade>
+
     <h3>know about galaxy</h3>
     <a href="about.html">touch me for know about galaxy</a>
-    <hr size="3" noshade>
+
     <h3>my contact</h3>
     <a href="contact.html">touch for my contact</a>
-    <hr size="3" noshade>
-    <h3>what i know</h3>
+    <hr size="5" color="#06061a"> -->
+
+    <!--  Your Previous Code  -->
+
+
+    <div class="knowledge">
+      <div class="head3"> What I know</div>
+      <div class="things">
+        Python <br> Java <br> JavaScript <br> Flutter
+      </div>
+    </div>
+
+
+
+    <div class="bottom-box" >
+      <ul>
+      <li class="box1">
+        <div class="headbox">
+          Download The HTML Sheet
+        </div>
+        <div class="bodybox">
+        <a download href="WSU-HTML-Cheat-Sheet.pdf">Download</a>
+        </div>
+
+      </li>
+
+      <li class="box2">
+        <div class="headbox">
+          Know About Galaxy
+        </div>
+        <div class="bodybox">
+        <a href="about.html">Click Here</a>
+        </div>
+      </li>
+
+      <li class="box3">
+        <div class="headbox">
+          My Contact
+        </div>
+        <div class="bodybox">
+          <a href="contact.html">Get My Info Here</a>
+        </div>
+      </li>
+    </ul>
+    </div>
+
+
+
+
+    <!-- <h3>what i know</h3>
     <table border="1">
       <thead>
         <tr>
@@ -96,6 +155,6 @@
         </tr>
       </tbody>
 
-    </table>
+    </table> -->
   </body>
 </html>
